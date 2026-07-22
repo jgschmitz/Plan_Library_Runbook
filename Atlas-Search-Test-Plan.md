@@ -232,15 +232,24 @@ Filename: `indexes/mandates_lexical.json`
     "mappings": {
       "dynamic": false,
       "fields": {
-        "title":       { "type": "string", "analyzer": "lucene.standard" },
-        "description": { "type": "string", "analyzer": "lucene.standard" },
-        "body":        { "type": "string", "analyzer": "lucene.standard" },
-        "mandateCode": { "type": "string", "analyzer": "lucene.keyword" },
-        "jurisdiction":{ "type": "string", "analyzer": "lucene.keyword" },
-        "state":       { "type": "string", "analyzer": "lucene.keyword" },
-        "appliesTo":   { "type": "string", "analyzer": "lucene.keyword" },
-        "tags":        { "type": "string", "analyzer": "lucene.keyword" },
-        "effectiveDate": { "type": "date" }
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "body": {
+          "type": "string"
+        },
+        "jurisdiction": {
+          "type": "token"
+        },
+        "state": {
+          "type": "token"
+        },
+        "tags": {
+          "type": "token"
+        }
       }
     }
   }
