@@ -1,0 +1,64 @@
+{
+  "planAssignmentID": 325645,
+  "version": 64,
+  "planDetails": {
+    "planType": "Standard",
+    "planCode": "1666A",
+    "stateAbbr": "TX",
+    "license": "HMO",
+    "organization": "UnitedHealthcare",
+    "productType": "HMO",
+    "product": "NexusACO R",
+    "category": "NexusACO R Tiered HSA",
+    "description": "4000/80%"
+  },
+  "medicalDeductible": {
+    "dedTiers": [
+      {
+        "tierNumber": 2,
+        "individualDed": "$4,000",
+        "familyDed": "$8,000"
+      }
+    ]
+  },
+  "medicalOutOfPocket": {
+    "oopmTiers": [
+      {
+        "tierNumber": 2,
+        "individualOOPM": "$6,000",
+        "familyOOPM": "$12,000"
+      }
+    ]
+  },
+  "medicalBenefits": [
+    {
+      "benefitCategory": "Rehabilitation Services - Outpatient Therapy and Manipulative Treatment",
+      "benefitCategoryDisplayName": "Rehabilitation Services - Outpatient Therapy and Manipulative Treatment",
+      "benefitGroup": "Outpatient Care",
+      "paymentLines": [
+        {
+          "paymentLineValue": "Standard",
+          "paymentLineDescription": "Other rehabilitation services.",
+          "benefitTiers": [
+            {
+              "tierNumber": 2,
+              "coins": 20,
+              "dedApplies": true,
+              "isCovered": true,
+              "outputValue": "20%*"
+            }
+          ],
+          "limits": [
+            {
+              "limitType": "Visit",
+              "limitValue": "20",
+              "freqencyType": "Year",
+              "appliesTo": "PT",
+              "outputValue": "Limited to 20 visits of physical therapy per year."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "mandateId": "UT-001",
+    "state": "UT",
+    "ruleType": "State Mandate",
+    "title": "Emergency Services Cost Sharing",
+    "text": "Emergency services must apply required member cost-sharing rules without inappropriate restrictions.",
+    "effectiveDate": "2026-01-01"
+  },
+  {
+    "mandateId": "UT-002",
+    "state": "UT",
+    "ruleType": "State Mandate",
+    "title": "Copayment Requirements",
+    "text": "Certain covered services are subject to copayment requirements defined by the plan and applicable state rules.",
+    "effectiveDate": "2026-01-01"
+  }
+]

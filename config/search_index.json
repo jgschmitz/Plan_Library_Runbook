@@ -1,0 +1,55 @@
+{
+  "name": "plan_library_search",
+  "definition": {
+    "mappings": {
+      "dynamic": false,
+      "fields": {
+        "planAssignmentID": {
+          "type": "number"
+        },
+        "version": {
+          "type": "number"
+        },
+        "planDetails": {
+          "type": "document",
+          "fields": {
+            "planCode": {
+              "type": "string"
+            },
+            "stateAbbr": {
+              "type": "string",
+              "analyzer": "lucene.keyword"
+            },
+            "planType": {
+              "type": "string",
+              "analyzer": "lucene.keyword"
+            },
+            "productType": {
+              "type": "string",
+              "analyzer": "lucene.keyword"
+            },
+            "product": {
+              "type": "string"
+            },
+            "standard": {
+              "type": "string"
+            },
+            "category": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "marketingName": {
+              "type": "string"
+            }
+          }
+        },
+        "medicalBenefits": {
+          "type": "embeddedDocuments",
+          "dynamic": true
+        }
+      }
+    }
+  }
+}
