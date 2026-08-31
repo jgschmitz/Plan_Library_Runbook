@@ -1,4 +1,4 @@
-# Plan Library --- MongoDB Atlas Search Recommendations
+# Plan Library / MongoDB Atlas Search Recommendations
 
 ## Executive Summary
 
