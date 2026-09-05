@@ -25,4 +25,4 @@ python scripts/filtered_search.py
 python scripts/hybrid_search.py
 ```
 
-The POC should validate full-text search, filters/facets, nested benefit search, relevance, semantic/hybrid retrieval, and whether the current large plan document is the right search retrieval unit.
+The POC will validate full-text search, filters/facets, nested benefit search, relevance, semantic/hybrid retrieval, and whether the current large plan document is the right search retrieval unit.
